@@ -26,6 +26,7 @@ console.log(map(words, function (word) {
 console.log(map(words, function (word) {
   return word.split('').reverse().join('');
 }));
+console.log(words);
 
 // [6, 7, 2, 5, 3]
 
